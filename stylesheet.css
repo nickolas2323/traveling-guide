@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+}
+html {
+    font-family: Tahoma, sans-serif;
+    color: #787878
+}
+body {
+    background: rgba(254, 254, 254, 0.73);
+
+}
+.nav-wrapper {
+    background: rgb(0, 0, 0);
+}
+h3,h2 {
+    color: rgba(113, 113, 113, 0.95);
+    text-align: center;
+}
+.card {
+    font-family: 'Catamaran', sans-serif;
+    color: #717171;
+}
+.her {
+    margin-bottom: 20px;
+}
+.brand-logo {
+    padding: 10px;
+    margin-left: -40px;
+}
+.center {
+    margin-bottom: 10px;
+}
+.one {
+    width: 33%;
+    /*height: 120px;*/
+    /*background: deeppink;*/
+    float: left;
+    color: #717171;
+    border-bottom: 1px solid #cedce2;
+    font-family: 'Catamaran', sans-serif;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+ }
+
+.text {
+    position: relative;
+}
+.filter{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 15%;
+    color: lightyellow;
+    font-family: 'Dancing Script', cursive;
+}
+.clearfix{
+    clear: both;
+    height: 40px;
+}
+/*------------*/
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+}
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+.video-container {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #000;
+}
+.video-container div, .video-container video {
+    position: absolute;
+    top: 0;
+}
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}
+.video-container video.fillWidth {
+    width: 100%;
+}
+#wrapper {
+    position: relative;
+}
+#wrapper div, #wrapper video {
+    position: absolute;
+    top: 0;
+}
+.tourist {
+    width: 40%;
+    height: 300px;
+    float:left;
+    text-align:left;
+    margin: 50px;
+}
+.maint {
+    width: 40%;
+    height: 200px;
+    float: left;
+    margin: 20px;
+}
+.conteiner {
+ margin-left: 50px;
+}
+.footer-copyright {
+    text-align: center;
+}
+.page-footer {
+    margin: 0;
+}
+.row {
+    margin: 0;
+}
+.validate{
+    color: #787878;
+}
+.wrap {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 600px){
+    html {
+        font-size: 12px;
+    }
+    h1 {
+
+    }
+    h2 {
+        font-size: 2.7rem;
+    }
+    h3 {
+        font-size: 2.3rem;
+    }
+    .card .card-content p {
+        font-size: 1.4rem;
+    }
+    p {
+
+    }
+    .one {
+        width:100%;
+        /*height: 100px;*/
+        float: none;
+
+    }
+
+    .video-container .filter {
+        margin-top: 12%;
+    }
+    .video-container .filter p {
+        font-size: 30px;
+        margin: 5%;
+        line-height: 100%;
+    }
+}
